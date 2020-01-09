@@ -41,7 +41,7 @@ CBLOCK 0x20
 		Count1ms
 		Count10ms
 		Count1s
-                CountHalfs
+        CountHalfs
 		Count10s
 		Count1m
 ENDC
@@ -82,7 +82,7 @@ R120us
 ;
 Delay100us
 		banksel Count100us
-		movlw H'A4'
+		movlw H'A3' ; subtracted one to ensure accuracy
 		movwf Count100us
 R100us
 		decfsz Count100us
