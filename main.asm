@@ -64,9 +64,11 @@ repeat
 		movlw 0xFF	        ;Move '0b11111111' to PORTB register
 		movwf PORTB 	    ;All LED at PORTB should be light up now
 		Call DelayHalfs 	    ; call subroutine for 1s delay
+        Call Delay1ms ; tuning
 		movlw 0x00 	        ; Move '0b00000000' to PORTB register
 		movwf PORTB 	    ; All LED at PORTB should be dimmed now
 		Call DelayHalfs 	    ; call subroutine for 1s delay
+        Call Delay1ms ; tuning
 		goto repeat 	    ; goback to 'repeat' infinite loop
 
 ;==========================================================
