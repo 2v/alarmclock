@@ -1,0 +1,74 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Jan 08 19:29:47 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000005    program   0x0000ae
+.config_2007_BA_L1_TURN_ON_LED-10F200.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000005    0x00005b      
+                            0x002007    0x002007      
+            91 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               Delay100ms   0x000054    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               Delay100us   0x00001d    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                Delay10ms   0x00002c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                 Delay10s   0x000044    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               Delay120us   0x000016    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                  Delay1m   0x00004c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                 Delay1ms   0x000024    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                  Delay1s   0x000034    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               DelayHalfs   0x00003c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R100ms   0x000058    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R100us   0x000021    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                    R10ms   0x000030    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                     R10s   0x000048    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R120us   0x00001a    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                      R1m   0x000050    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                     R1ms   0x000028    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                      R1s   0x000038    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   RHalfs   0x000040    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                    START   0x000005    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   repeat   0x00000f    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000005    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   repeat   0x00000f    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               Delay120us   0x000016    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R120us   0x00001a    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               Delay100us   0x00001d    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R100us   0x000021    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                 Delay1ms   0x000024    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                     R1ms   0x000028    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                Delay10ms   0x00002c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                    R10ms   0x000030    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                  Delay1s   0x000034    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                      R1s   0x000038    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               DelayHalfs   0x00003c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   RHalfs   0x000040    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                 Delay10s   0x000044    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                     R10s   0x000048    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                  Delay1m   0x00004c    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                      R1m   0x000050    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+               Delay100ms   0x000054    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+                   R100ms   0x000058    program     static C:\Users\tbuckley\Documents\mplabone\BA_L1_Turn_on_LED-10F200.ASM
+
+
